@@ -1,0 +1,350 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 120px;
+
+}
+
+.mobi-menu {
+    display: none;
+}
+.mobi-menu div {
+    width: 30px;
+    height: 2px;
+    background: #6FBF44;
+    margin: 7px;
+}
+
+.link-header {
+    margin-right: 50px;
+    font-weight: 430;
+    font-size: 18px;
+    color: #515151;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-header:hover {
+    color: #6773f1;
+    opacity: .6;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: .7;
+}
+.button-header:active {
+    background-color: #6773f1;
+}
+
+.logo-image {
+    width: 533.83px;
+    height: 466.9px;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+    
+}
+
+section {
+    margin-left: 96.83px;
+    margin-top: 98px;
+    display: inline-block;
+    
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+}
+
+.button-main {
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #63e41e;
+    cursor: pointer;
+    width: 103px;
+   
+}
+
+@media (max-width: 1340px) {
+    header {
+        margin: 47px 0 0 120px;
+    }
+    
+    .link-header {
+        margin-right: 50px;
+        font-weight: 430;
+        font-size: 18px;
+        color: #515151;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .link-header:hover {
+        color: #6773f1;
+        opacity: .6;
+    }
+    
+    .button-header {
+        width: 124px;
+        height: 51px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .button-header:hover {
+        opacity: .7;
+    }
+    .button-header:active {
+        background-color: #6773f1;
+    }
+    
+    .logo-image {
+        width: 500px;
+        height: 462px;
+        margin-left: 43px;
+        margin-top: 140px;
+        display: inline-block;
+        
+    }
+    
+    section {
+        margin-left: 43px;
+        margin-top: 98px;
+        display: inline-block;
+        width: 1px;
+        
+    }
+    
+    h1 {
+        width: 582px;
+        height: 164px;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        color: #161A49;
+    }
+    
+    p {
+        width: 493px;
+        height: 99px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #4B505A;
+        margin: 47px 0 55px 0;
+    }
+    
+    .button-main {
+        background: none;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #63e41e;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 770px) {
+    header {
+        margin: 49px 0 0 89px;
+    }
+
+    .link-header {
+        margin-right: 50px;
+        font-weight: 430;
+        font-size: 18px;
+        color: #515151;
+        display: inline-block;
+    }
+    
+    .link-header:hover {
+        color: #6773f1;
+        opacity: .6;
+    }
+    .button-header {
+        width: 115px;
+        height: 45px;
+        border-radius: 17px;
+        border: 1px solid #f8f9f8;
+        background: #6FBF44;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .logo-image {
+        width: 533.83px;
+        height: 466.9px;
+        margin-left: 115px;
+        margin-top: 95px;
+        display: inline-block;
+    }
+
+    section {
+        margin-left: 131px;
+    }
+
+    h1 {
+        width: 582px;
+        height: 164px;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        color: #161A49;
+        margin-top: -64px
+    }
+
+    p {
+        width: 493px;
+        height: 99px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #4B505A;
+        margin: 30px 0 30px 0;
+    }
+
+    .button-main {
+        width: 120px;
+        border-radius: 20px;
+        box-shadow: 1px 4px 0px 1px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #63e41e;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 686px) {
+    main {
+        margin-left: -40px;
+    }
+    .mobi-menu {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 57px;
+        top: 59px;
+        
+    }
+
+    .mobi-menu div {
+        width: 35px;
+        height: 3px;
+        background: #6FBF44;
+        margin: 7px;
+    }
+    
+
+   .link-header {
+    display: none;
+   }
+
+    .button-header {
+        width: 115px;
+        height: 45px;
+        border-radius: 30px;
+        font-size: 17px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: 407px;
+        top: 6px;
+    }
+
+    .logo-image {
+        width: 533.83px;
+        height: 466.9px;
+        margin-left: 115px;
+        margin-top: 95px;
+        display: inline-block;
+    }
+
+    section {
+        margin-left: 131px;
+    }
+
+    h1 {
+        width: 582px;
+        height: 164px;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        color: #161A49;
+        margin-top: -64px
+    }
+
+    p {
+        width: 493px;
+        height: 99px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #4B505A;
+        margin: 30px 0 30px 0;
+    }
+
+    .button-main {
+        width: 120px;
+        border-radius: 20px;
+        box-shadow: 1px 4px 0px 1px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #63e41e;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
+
